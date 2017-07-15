@@ -1,0 +1,26 @@
+{
+  "name": "nodetodo",
+  "version": "1.0.0",
+  "description": "An API todo list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JarodBoone/nodetodo.git"
+  },
+  "author": "Jarod Boone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JarodBoone/nodetodo/issues"
+  },
+  "homepage": "https://github.com/JarodBoone/nodetodo#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.11.1"
+  }
+}
